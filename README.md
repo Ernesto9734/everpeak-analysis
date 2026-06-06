@@ -1,43 +1,34 @@
-✔ ¿De qué trata este proyecto?
+# EverPeak Retail Analysis – Sprint 6
 
-Este proyecto tiene como objetivo analizar la relación entre el crecimiento económico de distintas ciudades latinoamericanas y la dinámica del tráfico vehicular. Para ello, se estudian indicadores económicos y variables asociadas a la movilidad urbana con el fin de identificar patrones, tendencias y posibles correlaciones entre el desarrollo económico y las condiciones de circulación vial.
+Este repositorio contiene el análisis realizado durante el Sprint 6 del caso EverPeak–SilverBasket.
 
-✔ ¿Qué contiene este repositorio?
+El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del retail. :contentReference[oaicite:2]{index=2}
 
-Este repositorio incluye un Jupyter Notebook para el procesamiento y análisis de datos de diversas ciudades latinoamericanas. Utilizando la librería Pandas, se generan tablas, gráficos e indicadores que permiten estudiar la relación entre el crecimiento económico y el tráfico vehicular, proporcionando la información necesaria para obtener las conclusiones del proyecto.
+## 📂 Contenido del repositorio
 
-✔ ¿Cómo abrir el notebook en Colab?
+- `notebooks/everpeak_analysis.ipynb`
+  → Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
 
-El Jupyter Notebook puede abrirse directamente en Google Colab desde un repositorio de GitHub. Para ello:
+## ▶ Cómo abrir el notebook en Google Colab
 
-1- Accede a Google Colab.
-2- Selecciona la opción Archivo → Abrir notebook.
-3- Dirígete a la pestaña GitHub.
-4- En el campo de búsqueda, introduce el usuario Ernesto934 o el nombre del repositorio everpeak-analysis.
-5- Selecciona el notebook que deseas ejecutar y ábrelo en Colab.
+Haz clic en el siguiente botón:
 
-Una vez abierto, podrás ejecutar todas las celdas y reproducir el análisis realizado en este proyecto.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK_EN_GITHUB)
 
-✔ ¿Cómo reproducir tu análisis?
+O:
 
-Para reproducir el análisis presentado en este proyecto, basta con abrir el Jupyter Notebook principal incluido en el repositorio y ejecutar sus celdas en orden secuencial, desde la primera hasta la última.
+1. Abre el archivo `.ipynb` en GitHub
+2. Haz clic en **Open in Colab**
 
-El notebook incorpora las etapas necesarias para:
+## 📘 Cómo reproducir el análisis
 
-1- Cargar los conjuntos de datos utilizados en el estudio.
-2- Realizar el preprocesamiento y la limpieza de la información.
-3- Calcular las métricas e indicadores de interés.
-4- Generar las tablas y gráficas empleadas en el análisis.
-5- Obtener los resultados que sustentan las conclusiones finales.
+1. Abre `notebooks/everpeak_analysis.ipynb`
+2. Ejecuta las celdas en orden
+3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
 
-Si los archivos de datos se encuentran incluidos en el repositorio, el notebook está configurado para cargarlos automáticamente desde las rutas especificadas.
+## 🧠 Objetivo del análisis
 
-Orden de ejecución recomendado:
-
-1- Abrir el notebook principal del proyecto.
-2- Verificar que las dependencias requeridas estén instaladas.
-3- Ejecutar las celdas en el orden en que aparecen.
-4- Revisar las tablas, métricas y gráficas generadas durante la ejecución.
-5- Analizar los resultados finales y las conclusiones derivadas del estudio.
-
-De esta manera, cualquier usuario podrá reproducir completamente el flujo de trabajo y los resultados obtenidos en el proyecto.
+- Identificar problemas de calidad de datos
+- Construir un pipeline de limpieza reproducible
+- Analizar comportamientos, distribuciones y outliers
+- Generar insights para el equipo de Estrategia e Integración de EverPeak
